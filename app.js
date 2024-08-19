@@ -2,7 +2,7 @@ import express  from 'express';
 import helmet from 'helmet';
 
 const app = express();
-const port = 3000;
+const port = 10000;
 
 import { getAllQuotes } from "./libs/quotes.js";
 

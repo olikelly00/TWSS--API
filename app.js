@@ -2,7 +2,8 @@ import express  from 'express';
 import helmet from 'helmet';
 
 const app = express();
-const port = 10000;
+const port = process.env.PORT || 10000;
+
 
 import { getAllQuotes } from "./libs/quotes.js";
 

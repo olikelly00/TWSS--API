@@ -14,7 +14,7 @@ app.use(helmet());
 
 
 /* 
-This handler function sets up a welcome message to display on our landing page
+This handler function sets up a welcome message to users of the API
 */
 
 app.get('/', (req, res) => {

@@ -1,4 +1,4 @@
-import quotes from "../data/quotes.json" assert { type: 'json' };
+import quotes from '../data/quotes.json' assert {type: 'json'}
 
 /* This function returns an array of all quotes */
 

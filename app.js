@@ -1,13 +1,18 @@
 import express  from 'express';
 import helmet from 'helmet';
+import cors from 'cors';
 
 const app = express();
-const port = process.env.PORT || 10000;
+
+const port = process.env.PORT | 10000;
 
 
 import { getAllQuotes } from "./libs/quotes.js";
 
 app.use(express.json())
+
+app.use(cors());
+
 
 app.use(helmet());
 
